@@ -2,7 +2,7 @@
 # See README.md for instructions on how to do this
  require "pry"
  
-def frizzbuzz(int)
+def fizzbuzz(int)
   if int % 3 == 0 && int % 5 == 0 
     "FrizzBuzz"
   elsif int % 3 == 0 
